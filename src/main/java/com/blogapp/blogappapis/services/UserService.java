@@ -1,9 +1,12 @@
 package com.blogapp.blogappapis.services;
 
 import com.blogapp.blogappapis.payloads.UserDto;
+
 import java.util.List;
 
 public interface UserService {
+
+    UserDto registerNewUser(UserDto userDto);
 
     UserDto createUser(UserDto user);
 
